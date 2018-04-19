@@ -14,7 +14,10 @@ const i18n = new VueI18n({
       spaceduck: {
         home: {
           title: 'SPACEDUCK',
-          subtitle: 'BECOME A HERO.'
+          subtitle: 'BECOME A HERO.',
+          buttons: {
+            play: 'PLAY'
+          }
         }
       }
     },
@@ -22,7 +25,10 @@ const i18n = new VueI18n({
       spaceduck: {
         home: {
           title: 'SPACEDUCK',
-          subtitle: 'DEVENEZ UN HÉRO.'
+          subtitle: 'DEVENEZ UN HÉRO.',
+          buttons: {
+            play: 'JOUER'
+          }
         }
       }
     }
