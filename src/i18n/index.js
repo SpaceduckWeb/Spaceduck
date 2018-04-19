@@ -16,7 +16,7 @@ const i18n = new VueI18n({
           title: 'SPACEDUCK',
           subtitle: 'BECOME A HERO.',
           buttons: {
-            play: 'PLAY'
+            play: 'Play'
           }
         }
       }
@@ -27,7 +27,7 @@ const i18n = new VueI18n({
           title: 'SPACEDUCK',
           subtitle: 'DEVENEZ UN HÉRO.',
           buttons: {
-            play: 'JOUER'
+            play: 'Jouer'
           }
         }
       }

@@ -1,7 +1,6 @@
 
 <template>
   <div class="app">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <div id='stars'></div>
     <div id='stars2'></div>
     <div id='stars3'></div>
@@ -14,8 +13,10 @@
         {{ $t("spaceduck.home.subtitle") }}
       </span>
     </div>
+    <div id='play'>
+      <button class="play" href="#">{{ $t("spaceduck.home.buttons.play") }}</button>
+    </div>
   </div>
-
 </template>
 
 <script>
@@ -41,6 +42,39 @@ html {
   height: 100%;
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
+}
+
+.play {
+  background-color: transparent;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'BaronNeue', sans-serif;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 45px;
+  border: 2px solid #d3d3d3;
+  padding-top: 3px;
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play:hover {
+  font-size: 42px;
+}
+
+#play {
+  text-align: center;
+  position: absolute;
+  top: 52%;
+  left: 0;
+  right: 0;
 }
 
 #stars {
@@ -96,14 +130,14 @@ html {
 
 #title {
   position: absolute;
-  top: 50%;
+  top: 42%;
   left: 0;
   right: 0;
   color: #FFF;
   text-align: center;
   font-family: "BaronNeue", sans-serif;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 65px;
   letter-spacing: 10px;
   margin-top: -60px;
   padding-left: 10px;
@@ -122,4 +156,5 @@ html {
     transform: translateY(-2000px);
   }
 }
+
 </style>
