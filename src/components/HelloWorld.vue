@@ -7,11 +7,11 @@
     <div id='stars3'></div>
     <div id='title'>
       <span>
-        SPACEDUCK
+        {{ $t("spaceduck.home.title") }}
       </span>
       <br>
       <span>
-        BECOME A HERO. NOW.
+        {{ $t("spaceduck.home.subtitle") }}
       </span>
     </div>
   </div>
