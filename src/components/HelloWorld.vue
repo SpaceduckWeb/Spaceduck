@@ -13,7 +13,7 @@
       </span>
     </div>
     <div id='play'>
-      <button class="play" href="#">{{ $t("spaceduck.home.buttons.play") }}</button>
+      <button class='play' href="#">{{ $t("spaceduck.home.buttons.play") }}</button>
     </div>
   </div>
 </template>
@@ -49,14 +49,13 @@ html {
   padding: 16px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 40px;
   font-family: 'BaronNeue', sans-serif;
   margin: 4px 2px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-  border-radius: 45px;
+  border-radius: 30px;
   border: 2px solid #d3d3d3;
   padding-top: 3px;
   background: -webkit-linear-gradient(white, #38495a);
