@@ -1,4 +1,3 @@
-
 <template>
   <div class="app">
     <div id='stars'></div>

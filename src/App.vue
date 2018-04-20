@@ -22,9 +22,4 @@ export default {
   text-align: left;
   padding: 4%;
 }
-
-.Spaceduck-logo {
-  float: left;
-  clear: left;
-}
 </style>
